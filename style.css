@@ -1,0 +1,168 @@
+
+
+
+#navbar{
+    background-color:rgb(238, 206, 80);
+    height: 40px;
+    display: flex;
+    justify-content:space-around ;
+    align-items:center ;
+    font-family:serif Georgia, Times, 'Times New Roman', serif ;
+}
+#navbar a {
+    color: rgb(56, 13, 116);
+    text-decoration: none;
+}
+#navbar a:hover {
+    color:blue;
+}
+.column {
+    display: flex;
+    justify-content:space-around ;
+    align-items:center ;
+   
+    flex-direction: column;
+}
+
+
+​.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+
+.imagecenter {
+    display: flex;
+    justify-content: center;
+}
+h3{
+    color:black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif ;
+}
+.container{
+
+    display: flex;
+    min-height: fit-content;
+    flex-direction: row;
+}
+.box{
+color:black;
+font-size: 50%;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+text-align: center;
+padding:100%; 
+}
+.box1{background-color: cornflowerblue;
+
+}
+.container{display: flexbox;
+    min-width: fit-content;
+    flex-wrap:nowrap;
+
+
+
+}
+
+
+.box{
+    padding-left:300px;
+    padding-right:30px;
+    width:630px;
+    flex-direction: row;
+    align-self: flex-start;
+}
+
+.smalltitle2{
+    border-bottom: medium solid black;
+    background-color: blue;
+    background-repeat: repeat-y;
+}
+html{
+    background-image:url("/images/therok.jpeg") no-repeat center fixed;
+    background-size: cover;
+
+   
+}
+img{
+    width: 100%;
+    height:auto;
+
+}
+  
+.sidetoside {
+    display: flex;
+}
+
+.sidetoside {
+    display: flex;
+}
+​
+.column {
+    display: flex;
+    flex-direction: column;
+}  
+
+
+
+/* Click to expand inline (8 lines) */
+
+
+
+
+
+
+/* 
+* {
+    background-color: rgb(177, 211, 211);
+    box-sizing: border-box;
+    padding: 25px;
+}
+body {
+/* background-image: url("/images/rokpic.jpeg") */
+
+
+/* this is how to target all of your code */
+/* h1{color: black;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 800;
+    font-style: bold;
+    */
+
+/* 
+h3{color: black;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 800;
+    font-style: bold;
+   
+} */
+
+
+
+
+
+/* h1 {
+    color:rgb(26, 27, 29);
+    font-size: 500%;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+     font-weight: 400;
+    }
+/* This is how to target an element within our HTML */
+/* p {
+    color:black;
+}
+.billybob {
+    color: white;
+    font-size :25px;
+}
+/* personalised class name need . */
+/* .large {
+    font-size: 30px;
+}
+.blue {
+    background-color: lightskyblue;
+}
+
+
+.ol {font-style: italic;} */
